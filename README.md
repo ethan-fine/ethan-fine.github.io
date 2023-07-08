@@ -1,2 +1,2 @@
 # ethan-fine.github.io
-Ethan Fine's portfolio website
+Website about Ethan Fine's career as a SWE

@@ -55,7 +55,7 @@ h6 {
 
 .profile {
     border-radius: 100%;
-    background-image: url("../images/cover.jpg");
+    background-image: url("../images/profile.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -65,6 +65,7 @@ h6 {
     height: 50px;
     border: 1px solid white;
     background-size: 50px;
+		background-image: url("../images/profile-small.png");
 }
 
 .header {
@@ -222,30 +223,30 @@ h6 {
 }
 
 #cover #description {
-    height: 30px;
-    bottom: 40px;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
+  height: 30px;
+  bottom: 40px;
+	margin: 0 auto;
+  position: relative;
+  text-align: center;
 }
 
 #cover #description h2 {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 #cover #description img {
-    width: 20px;
-    top: 5px;
-    right: 10px;
-    position: relative;
-    display: inline-block;
+  width: 20px;
+  top: 5px;
+  right: 10px;
+  position: relative;
+  display: inline-block;
 }
 
 #covernavbar {
-    top: 570px;
+	top: 570px;
 	position: absolute;
-    margin-left: 35px;
+  margin-left: 35px;
 }
 
 #covernavbar ul a {
@@ -537,13 +538,9 @@ h6 {
     transform: rotate(0deg);
 }
 
-#projects #taskcheck .project-info h2 {
-    margin: 240px 0 0 0px;
-}
-
 #projects #hungercrafters {
 	background-size: 320px 300px;
-	background-image: url("../images/hungercrafters.jpg");
+	background-image: url("../images/hungercrafters.jpeg");
 }
 
 #projects #minebeyond {
@@ -631,13 +628,13 @@ h6 {
 
 #computers #projectredus {
     background-size: 320px 300px;
-    background-image: url("../images/redus.JPG");
+    background-image: url("../images/redus.jpeg");
     background-size: cover;
 }
 
 #computers #whitestorm {
     background-size: 450px 300px;
-    background-image: url("../images/white.JPG");
+    background-image: url("../images/white.jpeg");
     background-size: cover;
 }
 

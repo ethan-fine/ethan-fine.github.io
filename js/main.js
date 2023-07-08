@@ -124,8 +124,8 @@ $(function () {
 
     var curr = 0;
     var descriptions = [
-        ["Software Developer", "images/code-green.png"],
-        ["Ambitious Student", "images/a_plus.png"],
+        ["Software Engineer", "images/code-green.png"],
+        ["Ambitious Learner", "images/a_plus.png"],
         ["Creative Entrepreneur", "images/entrepreneur.png"]
     ];
 
@@ -136,7 +136,7 @@ $(function () {
             var $text = $description.find('h2');
             var $img = $description.find('img');
 
-            curr = (curr == (descriptions.length - 1)) ? 0 : curr + 1
+            curr = (curr + 1) % descriptions.length;
             var next = descriptions[curr];
 
             $text.html(next[0]);
