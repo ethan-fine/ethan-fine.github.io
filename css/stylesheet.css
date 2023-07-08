@@ -1,0 +1,701 @@
+body {
+	margin: 0px;
+	background-color: #304253;
+}
+
+h1 {
+	color: white;
+	font-family: Montserrat, Verdana, sans-serif;
+	font-size: 3.8em;
+	text-shadow: 4px 4px #253341;
+}
+
+h2 {
+    color: white;
+    font-family: "Lucida Console", Monica, monospace;
+    font-size: 1.4em;
+	text-shadow: 2px 2px #253341;
+}
+
+h3 {
+	color: white;
+	font-family: Verdana, sans-serif;
+	font-size: 1.6em;
+	text-shadow: 2px 2px #253341;
+}
+
+h4 {
+	color: white;
+	font-family: Verdana, sans-serif;
+	font-size: 2.1em;
+	text-shadow: 2px 2px #253341;
+}
+
+h5 {
+    color: #239F85;
+    font-size: 1.6em;
+    font-family: "American Typewriter", sans-serif;
+}
+
+h6 {
+	color: white;
+	font-size: 1em;
+	font-weight: lighter;
+	font-family: Verdana, sans-serif;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.fixedwidth {
+	width: 800px;
+	margin: 0px auto;
+}
+
+.profile {
+    border-radius: 100%;
+    background-image: url("../images/cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.small-profile {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    background-size: 50px;
+}
+
+.header {
+	height: 30px;
+	top: 50px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+.header h4 {
+	position: relative;
+	display: inline-block;
+}
+
+.header img {
+	width: 30px;
+	top: 5px;
+	right: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+.horizontal-separator {
+	width: 70%;
+	height: 5px;
+	background-color: #FFF;
+	box-shadow: 1px 1px #253341;
+}
+
+#navbar {
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    position: fixed;
+    background-color: #2D3E4F;
+    line-height: 15px;
+}
+
+#navbar-profile {
+    top: 10px;
+    margin-left: 100px;
+    position: relative;
+    float: left;
+}
+
+#navbar #title {
+    float: left;
+    margin-left: 10px;
+	position: relative;
+	bottom: 10px;
+}
+
+#navbar ul {
+    float: right;
+    margin: 33px 100px 0px 0px;
+}
+
+#navbar ul a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+}
+
+#navbar ul li {
+    list-style: none;
+    display: inline;
+    padding: 0px 10px 0px 8px;
+    margin: 0px 10px 0px 12px;
+}
+
+#navbar ul li:hover {
+    color: #239F85;
+    border-left: 2px solid #239F85;
+}
+
+#navbar #underlay {
+    width: 100%;
+    height: 10px;
+    position: fixed;
+    margin-top: 70px;
+    background-color: #293847;
+}
+
+#cover {
+	width: 100%;
+	height: 700px;
+	background-color: #304253;
+}
+
+#cover-profile {
+    width: 300px;
+    height: 300px;
+    top: 90px;
+    margin: 0px auto;
+    position: relative;
+    border: 7px solid white;
+    background-size: 300px;
+}
+
+#social {
+	width: 500px;
+	clear: both;
+	top: 70px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	display: inline;
+}
+
+#social ul {
+	position: relative;
+	top: 20px;
+}
+
+#social ul li {
+	list-style: none;
+	display: inline;
+	padding: 10px 20px 10px 20px;
+	border-top: 3px solid #239F85;
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#social ul li:hover {
+	background-color: #239F85;
+	border-top: 3px solid white;
+}
+
+#social #socialsetleft {
+	float: left;
+	left: 75px;
+}
+
+#social #socialsetright {
+	float: right;
+	right: 115px;
+}
+
+#social #socialsetleft #facebook {
+	background-image: url("../images/facebook-white.png")
+}
+
+#social #socialsetleft #twitter {
+	background-image: url("../images/twitter-white.png")
+}
+
+#social #socialsetright #google {
+	background-image: url("../images/google_plus-white.png")
+}
+
+#social #socialsetright #linkedin {
+	background-image: url("../images/linkedin-white.png")
+}
+
+#cover #description {
+    height: 30px;
+    bottom: 40px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+#cover #description h2 {
+    position: relative;
+    display: inline-block;
+}
+
+#cover #description img {
+    width: 20px;
+    top: 5px;
+    right: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+#covernavbar {
+    top: 570px;
+	position: absolute;
+    margin-left: 35px;
+}
+
+#covernavbar ul a {
+	color: white;
+	text-decoration: none;
+	font-family: Verdana, sans-serif;
+}
+
+#covernavbar ul li {
+	list-style: none;
+	display: inline;
+	padding: 15px 15px 15px 35px;
+	margin: 0px 10px 0px 10px;
+	border: 1px solid white;
+	border-bottom: 3px solid white;
+	border-radius: 10px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-size: 16px;
+}
+
+#covernavbar ul #aboutcni {
+	background-image: url("../images/about-white.png");
+	background-position: 10% 52%;
+}
+
+#covernavbar ul #projectscni {
+	background-image: url("../images/projects-white.png");
+	background-position: 10% 52%;
+}
+
+#covernavbar ul #resumecni {
+	background-image: url("../images/projects-white.png");
+	background-position: 10% 52%;
+}
+
+#covernavbar ul #contactcni {
+	color: #239F85;
+	opacity: 0.9;
+	border: 1px solid #239F85;
+	border-bottom: 3px solid #239F85;
+	background-image: url("../images/contact-green.png");
+	background-position: 10% 52%;
+}
+
+#covernavbar ul li:hover {
+	color: #239F85;
+	border: 1px solid #239F85;
+	border-bottom: 3px solid #239F85;
+}
+
+#covernavbar ul #aboutcni:hover {
+	background-image: url("../images/about-green.png");
+}
+
+#covernavbar ul #projectscni:hover {
+	background-image: url("../images/projects-green.png")
+}
+
+#covernavbar ul #resumecni:hover {
+	background-image: url("../images/projects-green.png")
+}
+
+#covernavbar ul #contactcni:hover {
+	opacity: 1;
+}
+
+#about {
+    position: relative;
+	height: 1250px;
+	background-color: #35495D;
+}
+
+#background {
+	padding-top: 100px;
+	width: 70%;
+	float: left;
+}
+
+#background #summary {
+	color: white;
+	font-family: Verdana;
+	line-height: 1.7em;
+}
+
+#background #summary a {
+	color: #239F85;
+	text-decoration: none;
+}
+
+#timeline {
+	width: 25%;
+	height: 500px;
+	float: right;
+	position: relative;
+	top: 100px;
+	left: 100px;
+	color: white;
+	font-family: Verdana;
+	font-size: 0.7em;
+}
+
+
+#timeline .event .date {
+	float: left;
+	display: inline;
+	position: relative;
+	right: 45px;
+	top: 80px;
+}
+
+
+#timeline .event .vertical-separator {
+    margin-top: 4px;
+	width: 2px;
+	height: 75px;
+	background-color: white;
+}
+
+#timeline .event .flag {
+	width: 5px;
+	height: 5px;
+	margin: 0px auto;
+	border-radius: 100%;
+	border: 2px solid white;
+	background-color: #239F85;
+	position: relative;
+	top: 5px;
+	right: 99.5px;
+}
+
+#timeline .event .event-info {
+	float: right;
+	bottom: 6.5px;
+	right: 105px;
+	position: relative;
+	width: 80px;
+}
+
+#skills-toggle {
+    width: 190px;
+    height: 40px;
+    color: white;
+    bottom: 0;
+    left: 50%;
+    margin-left: -95px;
+    position: absolute;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    line-height: 10px;
+    font-size: 0.9em;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+	box-shadow: 4px 0 #253341;
+    background-color: #D9505B;
+    background-size: 12px;
+    background-position: 7% 45%;
+    background-repeat: no-repeat;
+    background-image: url("../images/down.png");
+}
+
+#skills-toggle p {
+    padding-left: 22px;
+}
+
+#skills {
+	height: 750px;
+    margin-top: -26px;
+	color: white;
+	font-family: Verdana;
+	background-color: #D9505B;
+}
+
+#skills h3 {
+	padding-top: 50px;
+}
+
+.skill {
+	float: left;
+	display: block;
+	margin-right: 50px;
+}
+
+.skillname {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	border: 5px solid white;
+	margin: 20px 30px 20px 0px;
+	float: left;
+}
+
+.skillname p {
+	padding-top: 25px;
+	text-align: center;
+}
+
+.skillbar {
+	width: 200px;
+	height: 25px;
+	border-radius: 5px;
+	border: 1px solid white;
+	float: left;
+	margin-top: 62.5px;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-image: url("../images/white.png");
+}
+
+#java {
+	background-size: 80% 100%;
+}
+
+#swift {
+	background-size: 90% 100%;
+}
+
+#html {
+	background-size: 95% 100%;
+}
+
+#css {
+	background-size: 85% 100%;
+}
+
+#javascript {
+	background-size: 70% 100%;
+}
+
+#jquery {
+	background-size: 73% 100%;
+}
+
+#mysql {
+    background-size: 85% 100%;
+}
+
+#projects {
+	width: 100%;
+	height: 850px;
+	background-color: #239F85;
+}
+
+#projects .horizontal-separator {
+	height: 2px;
+	margin: 120px auto 0px auto;
+}
+
+#projects .project {
+	width: 300px;
+	height: 300px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin: 40px 20px 30px 60px;
+	display: inline-block;
+	box-shadow: 2px 2px #253341;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+
+#projects .project-info {
+	width: 50px;
+	height: 100%;
+	background-color: #35495D;
+}
+
+#projects .project-info h2 {
+	float: left;
+	margin: 240px 0 0 10px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+    -webkit-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -ms-transform-origin: left top 0;
+    -o-transform-origin: left top 0;
+	transform-origin: left top 0;
+}
+
+#projects #slift .project-info h2 {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+#projects #taskcheck .project-info h2 {
+    margin: 240px 0 0 0px;
+}
+
+#projects #hungercrafters {
+	background-size: 320px 300px;
+	background-image: url("../images/hungercrafters.jpg");
+}
+
+#projects #minebeyond {
+	background-size: 450px 300px;
+	background-image: url("../images/minebeyond.png");
+}
+
+#projects #taskcheck {
+	background-image: url("../images/task_check.png");
+}
+
+#projects #slift .project-info {
+	width: 300px;
+	height: 100.2%;
+	border-top-right-radius: 13px;
+	border-bottom-right-radius: 13px;
+}
+
+#projects #slift .project-info .description {
+    display: none;
+}
+
+#projects #slift .project-info .description h5 {
+    font-size: 0.2em;
+}
+
+#projects #slift .project-info h2 #slift {
+    position: relative;
+}
+
+#projects #slift .project-info p {
+	color: white;
+	font-family: Verdana;
+	margin-top: 0;
+	padding-top: 250px;
+	right: 30px;
+	float: right;
+    bottom: 250px;
+	position: relative;
+}
+
+#computers {
+    width: 100%;
+    height: 600px;
+    background-color: #239F85;
+}
+
+#computers .horizontal-separator {
+    height: 2px;
+    margin: 120px auto 0px auto;
+}
+
+#computers .computer {
+    width: 300px;
+    height: 300px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 40px 20px 30px 60px;
+    display: inline-block;
+    box-shadow: 2px 2px #253341;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+#computers .computer-info {
+    width: 50px;
+    height: 100%;
+    background-color: #35495D;
+}
+
+#computers .computer-info h2 {
+    float: left;
+    margin: 240px 0 0 0px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -ms-transform-origin: left top 0;
+    -o-transform-origin: left top 0;
+    transform-origin: left top 0;
+}
+
+#computers #projectredus {
+    background-size: 320px 300px;
+    background-image: url("../images/redus.JPG");
+    background-size: cover;
+}
+
+#computers #whitestorm {
+    background-size: 450px 300px;
+    background-image: url("../images/white.JPG");
+    background-size: cover;
+}
+
+#contact {
+    width: 100%;
+    height: 380px;
+    background-color: #35495D;
+}
+
+#contact .header img {
+	top: 2px;
+}
+
+#contact .horizontal-separator {
+	height: 2px;
+	margin: 120px auto 0px auto;
+}
+
+#contact .method {
+	width: 300px;
+	height: 90px;
+	margin: 40px 20px 30px 60px;
+	display: inline-block;
+	border-radius: 20px;
+	background-color: #239F85;
+	box-shadow: 4px 4px #253341;
+}
+
+#contact a {
+	text-decoration: none;
+}
+
+#contact .method img {
+	margin: 15px 10px 0 30px;
+}
+
+#contact .method h2 {
+	margin: -50px 0px 0px 110px;
+	text-shadow: none;
+	font-size: 1.5em;
+}
+
+#footer {
+	height: 200px;
+	background-color: #2D3E4F;
+	text-align: center;
+}
+
+#footer img {
+	width: 30px;
+	padding: 10px;
+	border-radius: 100%;
+	margin: 50px 10px 20px 10px;
+}
+
+#footer p {
+	color: white;
+	font-size: 0.8em;
+	margin-top: -15px;
+	font-family: Verdana, sans-serif;
+}
